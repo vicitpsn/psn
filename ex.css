@@ -1,0 +1,296 @@
+/* Designed and Coded by dvL-den.net */ 
+
+body {
+	background: url("http://i.imgur.com/4Iv4TE3.png");
+    background-position: 0 0px;
+    background-repeat: repeat;
+    font: 13px Arial,sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
+	width:"100%";
+}
+a {
+    color: #000000;
+    outline: medium none;
+    text-decoration: none;
+}
+a:hover {
+    opacity: 1;
+}
+.body p a {
+    color: #E3272A;
+}
+.body p a:hover {
+    text-decoration: underline;
+}
+
+/* Encrypted BG */
+ #header, .logo, #shelf, .button, footer {
+ background-image: url("http://i.imgur.com/X4RmPxf.png"); 
+ }
+ 
+/* header */
+#header {
+	background-repeat: no-repeat;
+	background-position: 0 -283px;
+	height: 127px;
+	margin: 0 auto;
+	position: relative;
+	width: 728px;
+	top: 64px;
+	z-index: 99999;
+	left: 1px;
+}
+#header #header-content {
+	height: 58px;
+	position: relative;
+	width: 75px;
+	top: 20px;
+	padding-left: 10px;
+}
+.logo {
+	background-repeat: no-repeat;
+	background-position: -227px -32px;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	opacity: 1.0;
+	padding: 0 0;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-khtml-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+.logo:hover {
+    opacity: 0.6;
+}
+/* middle content */
+.wrapper {
+	height: 940px;
+	margin: 0 auto;
+	position: relative;
+	width: 728px;
+	padding-top: 60px;
+}
+.wrapper2 {
+	height: 800px;
+	margin: 0 auto;
+	position: relative;
+	width: 728px;
+	padding-top: 60px;
+}
+.bg-holder {
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	width: 728px;
+	top: -62px;
+}
+#content-bg {
+	background: url("http://i.imgur.com/4Iv4TE3.png") repeat;
+	height: 1060px;
+	margin: 0 auto;
+	position: absolute;
+	width: 728px;
+	border: 1px solid #B5B5B5;
+	border-radius: 3px;
+}
+
+#content-bga {
+	background: url("http://i.imgur.com/4Iv4TE3.png") repeat;
+	height: 920px;
+	margin: 0 auto;
+	position: absolute;
+	width: 728px;
+	border: 1px solid #b5b5b5;
+	border-radius: 3px;
+}
+
+#home-text {
+	height: 48px;
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+#product-holder {
+	height: 230px;
+	width: 728px;
+	position: relative;
+}
+#product-holder1 {
+	background: url("http://i.imgur.com/f2s3Xaz.png");
+	background-repeat: no-repeat;
+	height: 182px;
+	width: 195px;
+	position: absolute;
+	left: 40px;
+}
+#product-holder2 {
+	background: url("http://i.imgur.com/lPLSLN7.png");
+	background-repeat: no-repeat;
+	height: 182px;
+	width: 195px;
+	position: absolute;
+	left: 268px;
+}
+#product-holder3 {
+	background: url("http://i.imgur.com/AgOgSm0.png");
+	background-repeat: no-repeat;
+	height: 182px;
+	width: 195px;
+	position: absolute;
+	left: 495px;
+}
+#shelf {
+	background-position: 0 -426px;
+	background-repeat: no-repeat;
+	height: 54px;
+	width: 728px;
+	position: relative;
+	margin: 0 auto;
+	left: 1px;
+	padding-bottom: 30px;
+}
+.shelf-text {
+	height: 16px;
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+	top: 8px;
+	text-align: center;
+}
+/* Columns */
+#columns-bg {
+	background: #E1E1E1;
+	background-position: 0 -735px;
+	background-repeat: no-repeat;
+	height: auto;
+	position: relative;
+	width: 700px;
+	margin: 0 auto;
+	border: 1px solid #B5B5B5;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.padding {
+	padding: 20px;
+	text-align: center;	
+}
+/* proceed button */ 
+#proceed {
+	height: 36px;
+	margin: 0 auto;
+	position: relative;
+	width: 122px;
+	top: 140px;
+}
+
+.button {
+	background-position: 0 -20px;
+	background-repeat: no-repeat;
+	height: 36px;
+	text-indent: -9999px;
+	width: 122px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-position: 0 -60px;
+}
+
+section#claim-cards {
+	width: 650px;
+	height: 300px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#claim-available {
+	background: url("../img/claim/available.png") no-repeat 0 0;
+	width: 193px;
+	height: 58px;
+	margin: 0 auto;
+	position: relative;
+	top: 137px;
+	cursor: pointer;
+}
+
+#claim-available:hover {
+	background-position: 0 -62px;	
+}
+
+#claim-unavailable {
+	background: url("../img/claim/unavailable.png") no-repeat;
+	width: 193px;
+	height: 58px;
+	margin: 0 auto;
+	position: relative;
+	top: 137px;
+}
+
+#card10 {
+	background: url("../img/claim/10a.png") no-repeat;
+	width: 195px;
+	height: 196px;
+	float: left;
+	padding-right: 32px;
+	padding-bottom: 32px;
+}
+
+#card25 {
+	background: url("../img/claim/25a.png") no-repeat;
+	width: 195px;
+	height: 196px;
+	float: left;
+	padding-right: 32px;
+	padding-bottom: 32px;
+}
+
+#card50 {
+	background: url("../img/claim/50a.png") no-repeat;
+	width: 195px;
+	height: 196px;
+	float: left;
+	padding-right: 32px;
+	padding-bottom: 32px;
+}
+
+.last {
+	padding-right: 0px !important;
+}
+/* scroll bar */
+::-webkit-scrollbar-thumb:vertical{background-color:#1d1d1d; height:100px}
+
+::-webkit-scrollbar-thumb:horizontal{background-color:#1d1d1d; height:10px}
+
+::-webkit-scrollbar{height:10px; width:10px; background-color:#5f5f5f}
+
+/* footer */
+* {margin: 0;}
+html, body {height: 100%;}
+
+footer {
+	background-position: 0 -174px;
+	background-repeat: no-repeat;
+	height: 52px;
+	margin: 0 auto;
+	position: relative;
+	width: 728px;
+	z-index: 16;
+	top: -50px;
+	left: 1px;
+	padding-bottom: 50px;
+}
+.copyrights {
+	color: white;
+	margin: 0 10px;
+	width: auto;
+	position: relative;
+	top: 26px;
+	font-size: 8pt;
+}
